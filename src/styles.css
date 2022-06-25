@@ -1,0 +1,15 @@
+body {
+  font-family: Lato;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input {
+  margin-bottom: 24px;
+}
