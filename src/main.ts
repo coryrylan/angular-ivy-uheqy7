@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { DateInputConverter } from './date-input-converter.directive';
 import 'zone.js';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [DateInputConverter, ReactiveFormsModule],
   template: `
     <h2>Binding Date Objects to the HTML datepicker in Angular</h2>
 

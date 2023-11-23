@@ -2,6 +2,7 @@ import { Directive, ElementRef, HostListener, Renderer2, forwardRef } from '@ang
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 @Directive({
+  standalone: true,
   selector: 'input[type=date][ngModel], input[type=date][formControl]',
   providers: [{
     provide: NG_VALUE_ACCESSOR,
